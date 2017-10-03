@@ -1,0 +1,32 @@
+h1,
+section{
+	color: red;
+}
+
+#secondli{
+	background-color: #ffff00;
+}
+.li{
+	background-color: rgb(0, 255, 0);
+}
+
+.blurred-text{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+[type="text"]{
+	border: 1px solid red;
+	color: blue;
+}
+
+[name="username"]{
+	border: 2px solid blue;
+}
+
+a:active{
+	font-weight: bold;
+}
+
+input:focus{
+	border-radius: 50%;
+}
