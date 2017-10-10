@@ -70,7 +70,7 @@ function normalCase(obj) {
   obj.output = temp;
   return obj;
 }
-function generate(numberOfTestcases, filePath = "./test-data.json"){
+function generate(numberOfTestcases, filePath = "./practice3/test-data.json"){
   var arr = [];
   // khoi tao object
   var input = [];
@@ -82,7 +82,7 @@ function generate(numberOfTestcases, filePath = "./test-data.json"){
     "output" : output,
   }
   // specical cass
-  if (numberOfTestcases >= 5) {
+  if (numberOfTestcases > 5) {
 
     // zero-length
     arr.push(zeroLengthCase(obj));
