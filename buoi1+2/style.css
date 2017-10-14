@@ -30,3 +30,17 @@ a:active{
 input:focus{
 	border-radius: 50%;
 }
+
+ol li{
+	font-family: "Comic Sans MS";
+	border-bottom: 1px solid blue;
+}
+
+ol li:last-child {
+	border-bottom: 0 none;
+}
+
+ol > li{
+	width: 400px;
+}
+

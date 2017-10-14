@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+}
+.menu{
+	background: #D5B0AC;
+	padding: 0;
+	text-align: center;
+	margin: 0 5%;
+}
+
+.menu span{
+	display: inline-block;
+	color: #402E2A;
+    font-size: 20px;
+    font-weight: bold;
+	line-height: 40px;
+	position: relative; 
+	width: 150px;
+	background-color: #D5B0AC;
+}
+
+.menu span:hover {
+    color: white;
+    background-color: #9CD08F;
+    cursor: pointer;
+}
+.menu span nav {
+	background-color: initial;
+	position: absolute;	
+	top: 100%;
+	left: -1px;
+}
+span > nav > span{
+	margin: 1px 1px 0;
+}
+.menu  span  nav span nav{
+	top: -1px;
+	left: 150px;	
+}
+
+.menu  span > nav > span{
+	visibility: hidden;
+}
+.menu  span:hover > nav > span{
+	visibility: visible;
+}
