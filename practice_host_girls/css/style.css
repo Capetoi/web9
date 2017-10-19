@@ -1,0 +1,11 @@
+header{
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	border: 1px solid #000000;
+	padding: 15px;
+}
+
+header .container{
+	margin: 0 auto;
+}

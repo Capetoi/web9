@@ -1,0 +1,50 @@
+.menu1{
+	background: #ffff66;
+	padding: 0px;
+  width: 100%;
+  position: fixed;
+	text-align: center;
+}
+.menu1 span{
+	display: inline-block;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+
+}
+.menu1 span:hover{
+	text-align: center;
+	background-color: #660066;
+	color: #ffffff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.menu1 span a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu2{
+	padding: 0px;
+	width: 150px;
+	text-align: left;
+
+}
+.menu2 span{
+	display: none;
+	margin: 0;
+	padding: 0 10px;
+	background-color: #ffff66;
+	border: 1px solid #fff666;
+	padding: 10px;
+	text-align: center;
+
+}
+
+.menu2 span:hover{
+	text-align: center;
+	background-color: #660066;
+	color: #ffffff;
+	cursor: pointer;
+}

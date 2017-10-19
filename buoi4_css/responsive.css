@@ -1,0 +1,23 @@
+.color_div {
+	background: green;
+}
+
+@media screen and (min-width: 768px) {
+	.color_div {
+		background: yellow;
+	}
+}
+
+
+@media screen and (min-width: 1200px) {
+	.color_div {
+		background: brown;
+	}
+}
+
+
+@media screen and (min-width: 1920px) {
+	.color_div {
+		background: yellow;
+	}
+}
